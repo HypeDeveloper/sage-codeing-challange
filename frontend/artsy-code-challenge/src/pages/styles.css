@@ -1,0 +1,146 @@
+@font-face {
+    font-family: ClashDisplay;
+    src: url(./../assets/fonts/ClashDisplay-Semibold.otf);
+}
+@font-face {
+    font-family: Satoshi;
+    src: url(./../assets/fonts/Satoshi-Variable.ttf);
+}
+.pageOffset{
+    padding-top: 70px;
+}
+.syledFont{
+    font-family: ClashDisplay;
+}
+.normalFont{
+    font-family: Satoshi;
+}
+
+/* Home - Start */
+.homePageWrap{
+    height: fit-content;
+}
+.home-Intro{
+    padding: 0 100px ;
+    /* zoom: 90%; */
+}
+.home-Slide{
+   display: flex; 
+   justify-content: space-between;
+}
+.slidebox{
+    display: flex;
+    gap: 20px;
+    width: 320px;
+    height: 350px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: white;
+}
+.slidebox:nth-child(1){
+    transform: translateY(10px);
+}
+.slidebox:nth-child(2){
+    transform: translateY(20px);
+}
+.slidebox:nth-child(3){
+    transform: translateY(30px);
+}
+.slidebox:nth-child(4){
+    transform: translateY(40px);
+}
+.slidewrap{
+    width: fit-content;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.slidewrap img{
+    width: 100%;
+}
+.imgBoxes{
+    height: 100%;
+    width: 300px;
+}
+
+/* Home - End */
+
+/* Featured - Start */
+.featured{
+    padding: 180px 130px;
+}
+.featured-Content{
+    margin-bottom: 80px
+}
+.line{
+    background: gray;
+    width: 70%;
+    height: 3px;
+    margin-bottom: 50px;
+    opacity: 0.6;
+}
+.content{
+    display: flex;
+    gap: 30px;
+}
+.content-Image{
+    width: 1700px;
+    height: 330px;
+    overflow: hidden;
+    background: pink;
+    position: relative;
+}
+.content-Image img{
+    width: 100%;
+}
+.content-Image .overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    transition: 1s;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.ccinfo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.content:hover .overlay{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.387);
+    transition: 1s;
+}
+
+.creatorsBox-Wrap{
+    display: flex;
+    transform: translateX(18px)
+}
+.content-Creators{
+    display:flex;
+    gap:25px;
+    align-items: center;
+}
+.content-Info{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.creatorCircle{
+    height: 50px;
+    width: 50px;
+    background: green;
+    border-radius: 100px;
+    border: 1px solid #78A3AD;
+    margin-left: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

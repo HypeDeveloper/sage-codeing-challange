@@ -1,0 +1,52 @@
+/* Navigation -Start */
+.navbar{
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    padding:0 10rem;
+    padding-top: 20px;
+    background: white;
+    z-index: 100;
+}
+.innerContent{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.other, .links{
+    display: flex;
+    gap: 30px;
+}
+.linkList{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.linkList img{
+    width: 20px;
+}
+
+/* Navigation -End */
+
+/* Arrow Button -Start */
+.arrowWrap{
+    height: 55px;
+    width: 55px;
+    border-radius: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 10px;
+}
+.arrowimg{
+    width: 25px;
+}
+.arrowWrap:hover img{
+    
+}
+
+/* Arrow Button -End  */
